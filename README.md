@@ -1,18 +1,30 @@
 ## pdf2video-maker
 
-#Description
+Description:
+
+This tool is able to convert the PDF file into an audio file, download the relevant image from the web, and generate a video as the final output
+
+Requirements:
+
+below libraries required to run the tool
+
+1.PyPDF3
+2.gTTS
+3.pdfplumber
+4.bing_image_downloader
+5.moviepy.editor 
 
 
+Installation:
 
-Requirements
+clone the tool : https://github.com/kathir-bit/pdf2video-maker.git
 
-Installation
-One can use pip to install pdf2video directly from GitHub:
+Usage:
 
-python3 -m pip install git+https://github.com/tjunttila/pdf2video.git
-See the PyPA Installing Packages tutorial for information on installing Python packages and on Python virtual environments.
+python3 script.py
 
-Usage
+Some good practices and hints:
 
+1.file can be small or medium sized 
+2.the file name need to emphasize the content so it helps to get correct image from the web
 
-Some good practices and hints
